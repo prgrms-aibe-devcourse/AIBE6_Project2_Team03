@@ -1,8 +1,10 @@
 <!-- HEADER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0,0d1117,60,0a2540,100,00b4d8&height=220&section=header&text=크리에이터%20×%20에디터&fontSize=50&fontColor=ffffff&fontAlignY=45&animation=fadeIn&desc=크리에이터%20에디터%20매칭의%20새로운%20기준&descSize=18&descAlignY=68&descAlign=50&descFontColor=ffffff" />
+
 <p align="center">
   투명한 단가, 검증된 포트폴리오 · 스트레스 없는 제작 파트너 찾기 · 한 플랫폼에서 연결합니다
 </p>
+
 <!-- 배포 링크 뱃지 (URL 교체) -->
 <p align="center">
   <a href="https://aibe-6-project2-team03-one.vercel.app/">
@@ -273,6 +275,69 @@ NEXT_PUBLIC_TOSS_CLIENT_KEY=
 
 ---
 
+## 🏗 시스템 아키텍처
+
+```mermaid
+graph TB
+  subgraph Client["🖥️  Client"]
+    Browser["브라우저"]
+  end
+
+  subgraph Vercel["☁️  Vercel"]
+    FE["Next.js 14\nApp Router / React 19"]
+  end
+
+  subgraph Railway["🚂 Railway"]
+    direction TB
+    SB["Spring Boot 4.0\n(Railpack / gradlew bootJar)"]
+    JWTFilter["JWT Filter"]
+    REST["REST API  /api/**"]
+    WS["WebSocket STOMP /ws\n(인메모리 브로커)"]
+    Flyway["Flyway 마이그레이션"]
+    MySQL["MySQL 8.4"]
+
+    SB --> JWTFilter
+    JWTFilter --> REST
+    SB --> WS
+    SB --> Flyway
+    REST --> MySQL
+    WS --> MySQL
+    Flyway --> MySQL
+  end
+
+  subgraph Storage["📦 Cloudflare R2"]
+    R2["포트폴리오 이미지 / 영상\n채팅 첨부파일"]
+  end
+
+  subgraph OAuth["🔐 OAuth 2.0"]
+    Kakao["Kakao"]
+    Google["Google"]
+  end
+
+  subgraph ExtServices["🔌 External Services"]
+    Toss["Toss Payments\n포인트 충전"]
+    Gemini["Google Gemini AI\n분쟁 자동 판정"]
+    Brevo["Brevo\n이메일 인증"]
+  end
+
+  Browser -- HTTPS --> FE
+  Browser -- "HTTPS / WSS" --> SB
+
+  FE -- "REST API" --> REST
+  FE -- "WebSocket STOMP" --> WS
+
+  REST -- "파일 업로드" --> R2
+  R2 -- "Public URL 직접 서빙" --> Browser
+
+  REST --> Kakao
+  REST --> Google
+  REST --> Toss
+  REST --> Gemini
+  REST --> Brevo
+```
+
+---
+
 ## 🗄 ERD
 
 <p align="center">
@@ -283,22 +348,28 @@ NEXT_PUBLIC_TOSS_CLIENT_KEY=
 
 
 
+## 👥 팀원 소개
+
 <!-- 팀원 정보 -->
 <table>
   <tr>
     <td align="center">
+      <img src="https://github.com/0-0v.png" width="80" /><br/>
       <b>0-0v</b><br/>
       <a href="https://github.com/0-0v">@0-0v</a>
     </td>
     <td align="center">
+      <img src="https://github.com/HeungJunBag.png" width="80" /><br/>
       <b>HeungJunBag</b><br/>
       <a href="https://github.com/HeungJunBag">@HeungJunBag</a>
     </td>
     <td align="center">
+      <img src="https://github.com/JuyoungKim1024.png" width="80" /><br/>
       <b>JuyoungKim1024</b><br/>
       <a href="https://github.com/JuyoungKim1024">@JuyoungKim1024</a>
     </td>
     <td align="center">
+      <img src="https://github.com/tke0329.png" width="80" /><br/>
       <b>tke0329</b><br/>
       <a href="https://github.com/tke0329">@tke0329</a>
     </td>
