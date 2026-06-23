@@ -92,7 +92,7 @@
 <br/>
 
 - 거래 완료 후 상호 평가 (작업 품질·커뮤니케이션·납기 준수)
-- 랭크: `Rookie` → `Bronze` → `Silver` → `Gold` → `Platinum` → `Master`
+- 랭크: `Bronze` → `Silver` → `Gold` → `Platinum` → `Diamond`
 
 </details>
 
