@@ -160,6 +160,9 @@
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Toss Payments](https://img.shields.io/badge/Toss_Payments-0064FF?style=for-the-badge)
+![Kakao](https://img.shields.io/badge/Kakao_Login-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=black)
+![Google](https://img.shields.io/badge/Google_Login-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Brevo](https://img.shields.io/badge/Brevo_Mail-008A5E?style=for-the-badge&logo=brevo&logoColor=white)
 
 ---
 
@@ -340,6 +343,8 @@ graph TB
 <p align="center">
   <img width="3125" height="3039" alt="Image" src="https://github.com/user-attachments/assets/ae1f2a3e-d06a-41b8-9891-50f28f00a2ce" />
 </p>
+
+🔗 [dbdiagram.io에서 ERD 확인하기](https://dbdiagram.io/d)
 
 ---
 
