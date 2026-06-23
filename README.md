@@ -1,13 +1,8 @@
 <!-- HEADER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0,0d1117,60,0a2540,100,00b4d8&height=220&section=header&text=크리에이터%20×%20에디터&fontSize=50&fontColor=ffffff&fontAlignY=45&animation=fadeIn&desc=크리에이터%20에디터%20매칭의%20새로운%20기준&descSize=18&descAlignY=68&descAlign=50&descFontColor=ffffff" />
-
-<!-- 타이핑 애니메이션 -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+KR&weight=600&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=투명한+단가%2C+검증된+포트폴리오;스트레스+없는+제작+파트너+찾기;한+플랫폼에서+연결합니다" alt="Typing SVG" />
-  </a>
+  투명한 단가, 검증된 포트폴리오 · 스트레스 없는 제작 파트너 찾기 · 한 플랫폼에서 연결합니다
 </p>
-
 <!-- 배포 링크 뱃지 (URL 교체) -->
 <p align="center">
   <a href="https://aibe-6-project2-team03-one.vercel.app/">
