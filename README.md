@@ -8,10 +8,7 @@
 <!-- 배포 링크 뱃지 (URL 교체) -->
 <p align="center">
   <a href="https://aibe-6-project2-team03-one.vercel.app/">
-    <img src="https://img.shields.io/badge/🚀_서비스_바로가기-00B4D8?style=for-the-badge" />
-  </a>
-  <a href="깃허브URL입력">
-    <img src="https://img.shields.io/badge/GitHub-1a1a2e?style=for-the-badge&logo=github&logoColor=00B4D8" />
+    <img src="https://img.shields.io/badge/🚀_크크킄_바로가기-00B4D8?style=for-the-badge" />
   </a>
 </p>
 
