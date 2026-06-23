@@ -110,7 +110,7 @@
 <br/>
 
 - 포인트 충전 후 플랫폼 내 거래 진행 (Toss Payments 연동)
-- 프로젝트 수락 시 포인트 **에스크로 보관** → 완료 시 에디터에게 정산
+- 프로젝트 수락 시 포인트 플랫폼 안전 결제(보호 계좌) 보관 → 완료 시 에디터에게 정산
 - 양측 동의 없이 취소 불가 → 거래 안전성 보장
 
 </details>
@@ -343,8 +343,6 @@ graph TB
 <p align="center">
   <img width="3125" height="3039" alt="Image" src="https://github.com/user-attachments/assets/ae1f2a3e-d06a-41b8-9891-50f28f00a2ce" />
 </p>
-
-🔗 [dbdiagram.io에서 ERD 확인하기](https://dbdiagram.io/d)
 
 ---
 
