@@ -1,273 +1,326 @@
-# 유튜버 전문 프리랜서 구인·구직 플랫폼
+<!-- HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,0d1117,60,0a2540,100,00b4d8&height=220&section=header&text=크리에이터%20×%20에디터&fontSize=50&fontColor=ffffff&fontAlignY=45&animation=fadeIn&desc=크리에이터%20에디터%20매칭의%20새로운%20기준&descSize=18&descAlignY=68&descAlign=50&descFontColor=ffffff" />
 
-## 1. 서비스 개요
+<!-- 타이핑 애니메이션 -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+KR&weight=600&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=투명한+단가%2C+검증된+포트폴리오;스트레스+없는+제작+파트너+찾기;한+플랫폼에서+연결합니다" alt="Typing SVG" />
+  </a>
+</p>
 
-### 프로젝트 소개
-
-유튜버와 영상 편집자, 썸네일 디자이너를 연결하는 전문 구인·구직 플랫폼입니다.
-
-현재 유튜브 시장에서는 영상 편집자 및 디자이너 채용이 주로 오픈채팅, 커뮤니티, SNS 등을 통해 이루어지고 있습니다. 이 과정에서 적정 단가를 파악하기 어렵고, 작업자의 실력을 객관적으로 검증하기 어렵다는 문제가 존재합니다.
-
-본 서비스는 구인·구직 과정의 불투명성을 해소하고, 실거래 데이터를 기반으로 한 단가 정보와 검증된 작업자를 연결하는 것을 목표로 합니다.
-
----
-
-## 2. 문제 정의
-
-### 구인자(유튜버)의 문제
-
-* 편집자를 구할 수 있는 공식적인 플랫폼이 부족하다.
-* 편집자의 실력을 객관적으로 판단하기 어렵다.
-* 적정 외주 단가를 알기 어렵다.
-* 작업 지연 및 잠수 등 거래 리스크가 존재한다.
-
-### 구직자(편집자, 디자이너)의 문제
-
-* 안정적으로 일감을 구하기 어렵다.
-* 포트폴리오를 효과적으로 노출할 공간이 부족하다.
-* 경력 및 실력을 증명할 수 있는 수단이 부족하다.
-* 단가 책정 기준이 불명확하다.
+<!-- 배포 링크 뱃지 (URL 교체) -->
+<p align="center">
+  <a href="https://aibe-6-project2-team03-one.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀_서비스_바로가기-00B4D8?style=for-the-badge" />
+  </a>
+  <a href="깃허브URL입력">
+    <img src="https://img.shields.io/badge/GitHub-1a1a2e?style=for-the-badge&logo=github&logoColor=00B4D8" />
+  </a>
+</p>
 
 ---
 
-## 3. 타겟 사용자
+## 📌 서비스 개요
 
-### 구인자
+> 유튜버와 영상 편집자, 썸네일 디자이너를 연결하는 **전문 구인·구직 플랫폼**
 
-* 성장 단계에 있는 유튜버
-* 주기적인 영상 업로드가 필요한 크리에이터
-* 전담 편집자를 둘 규모는 아니지만 외주 수요가 지속적으로 발생하는 채널 운영자
+현재 유튜브 시장에서 편집자·디자이너 채용은 오픈채팅·커뮤니티·SNS에 의존하고 있어
+적정 단가 파악과 작업자 실력 검증이 어렵다는 문제가 존재합니다.
 
-### 구직자
+본 서비스는 **구인·구직 과정의 불투명성을 해소**하고,
+실거래 데이터 기반 단가 정보와 검증된 작업자를 연결하는 것을 목표로 합니다.
 
-* 프리랜서 영상 편집자
-* 쇼츠 전문 편집자
-* 썸네일 디자이너
-* 아이콘 및 채널 디자인 작업자
-
----
-
-## 4. 차별화 요소
-
-### 4-1. 인증 기반 전문가 등록
-
-구직자는 서비스가 제공하는 인증 절차를 통과해야 프로필을 등록할 수 있습니다.
-
-#### 인증 예시
-
-* 포트폴리오 제출
-* 작업 영상 제출
-* 사용 툴 인증
-* 실무 경력 인증
-
-이를 통해 구인자는 검증된 작업자를 찾을 수 있으며 작업 품질에 대한 신뢰를 확보할 수 있습니다.
+<!-- 서비스 스크린샷 (이미지 교체) -->
+<p align="center">
+  <img width="876" height="550" alt="Image" src="https://github.com/user-attachments/assets/8667a98f-6cc6-4642-81de-0faefc66433f" />
+</p>
 
 ---
 
-### 4-2. 실거래 기반 단가 데이터 공개
+## ❗ 문제 정의
 
-플랫폼 내 거래가 누적되면 실제 거래 데이터를 기반으로 평균 단가를 공개합니다.
-
-#### 예시
-
-* 쇼츠 평균 편집 단가
-* 롱폼 평균 편집 단가
-* 썸네일 제작 평균 단가
-
-#### 표시 예시
-
-* 이번 달 롱폼 편집 평균 단가 : 14,200원/분
-* 최저 단가 : 8,000원/분
-* 최고 단가 : 25,000원/분
-
-이를 통해 시장의 객관적인 단가 기준을 제공합니다.
-
----
-
-### 4-3. 거래 이력 공개 시스템
-
-실제 거래가 완료된 프로젝트의 단가 정보를 공개합니다.
-
-#### 예시
-
-* 게임 롱폼 편집
-* 영상 길이 : 10분
-* 거래 단가 : 60,000원
-* 작업 완료일 : 2026.06
-
-사용자는 과거 거래 사례를 참고하여 적정 단가를 판단할 수 있습니다.
+<table>
+  <tr>
+    <th>구인자 (유튜버)</th>
+    <th>구직자 (편집자·디자이너)</th>
+  </tr>
+  <tr>
+    <td>
+      • 편집자 구인 공식 플랫폼 부족<br/>
+      • 편집자 실력 객관적 판단 어려움<br/>
+      • 적정 외주 단가 정보 부족<br/>
+      • 작업 지연·잠수 등 거래 리스크
+    </td>
+    <td>
+      • 안정적인 일감 확보 어려움<br/>
+      • 포트폴리오 노출 공간 부족<br/>
+      • 경력·실력 증명 수단 부족<br/>
+      • 단가 책정 기준 불명확
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 4-4. 가격 정보 공개 유도
+## ✨ 주요 기능
 
-구인 게시글 작성 시 금액 입력을 권장합니다.
+<details>
+<summary><b>📋 구인·구직 게시판</b></summary>
+<br/>
 
-금액을 기재하지 않은 게시글은 검색 결과 및 추천 노출에서 우선순위를 낮게 적용합니다.
+- 프로젝트 등록 (예산·작업 내용·썸네일 여부 선택)
+- 프로젝트 지원 (포트폴리오·제안 금액 제출)
+- 금액 미기재 게시글 노출 우선순위 하향 → 투명한 거래 문화 조성
 
-이를 통해 투명한 거래 문화를 조성합니다.
+</details>
 
----
+<details>
+<summary><b>🧑‍💼 포트폴리오 중심 프로필 시스템</b></summary>
+<br/>
 
-### 4-5. 포인트 결제 기능
+- 작업물 스타일별 그룹화 등록
+- 유튜버의 직관적 스타일 탐색
+- 결과물 중심 평가 → 신입도 공정하게 어필 가능
 
-사이트 내 포인트로 거래가 가능하도록 합니다.
+</details>
 
-사용자는 포인트를 충전하고, 충전한 포인트를 이용해 플랫폼 내에서 거래를 진행할 수 있습니다.
+<details>
+<summary><b>💬 실시간 채팅</b></summary>
+<br/>
 
----
+- 게시글과 무관하게 직접 연락 가능
+- 파일·이미지 전송 / 견적 협의
 
-### 4-6. 거래 대법관 기능
+</details>
 
-AI가 거래 중 발생한 분쟁을 조정해주는 시스템입니다.
+<details>
+<summary><b>⭐ 리뷰 & 랭크 시스템</b></summary>
+<br/>
 
-거래 과정에서 문제가 발생했을 때 AI가 거래 내용, 채팅 내용, 작업 조건 등을 바탕으로 분쟁 상황을 분석하고 조정안을 제시합니다.
+- 거래 완료 후 상호 평가 (작업 품질·커뮤니케이션·납기 준수)
+- 랭크: `Rookie` → `Bronze` → `Silver` → `Gold` → `Platinum` → `Master`
 
----
+</details>
 
-### 4-7. 글쓰기 AI 프롬프트 기능
+<details>
+<summary><b>🤖 AI 기능</b></summary>
+<br/>
 
-글 작성 시 AI에게 작성을 맡길 수 있는 기능입니다.
+- **거래 대법관**: 분쟁 발생 시 AI가 거래 내용·채팅·작업 조건 분석 후 조정안 제시
+- **글쓰기 AI 프롬프트**: 구인글·구직글·소개글 작성 시 AI 초안 생성
 
-사용자는 구인글, 구직글, 프로필 소개글 등을 작성할 때 AI 프롬프트를 활용하여 더 자연스럽고 명확한 글을 작성할 수 있습니다.
+</details>
 
----
+<details>
+<summary><b>💰 안전결제 시스템</b></summary>
+<br/>
 
-## 5. 주요 기능
+- 포인트 충전 후 플랫폼 내 거래 진행 (Toss Payments 연동)
+- 프로젝트 수락 시 포인트 **에스크로 보관** → 완료 시 에디터에게 정산
+- 양측 동의 없이 취소 불가 → 거래 안전성 보장
 
-### 5-1. 구인·구직 게시판
+</details>
 
-#### 구인자
+<details>
+<summary><b>🎯 맞춤 매칭 (블라인드 프로필)</b></summary>
+<br/>
 
-* 프로젝트 등록
-* 예산 등록
-* 작업 내용 등록
-* 썸네일 제작 여부 선택
+- 조건 기반 에디터 자동 추천
+- 블라인드 프로필로 선입견 없는 매칭
+- 단가·스타일·툴 등 세부 조건 필터링
 
-#### 구직자
+</details>
 
-* 프로젝트 지원
-* 포트폴리오 제출
-* 제안 금액 제출
+<details>
+<summary><b>🔐 소셜 로그인</b></summary>
+<br/>
 
----
+- Google OAuth2 / Kakao OAuth2 지원
+- 이메일 인증 및 비밀번호 찾기 (Brevo 연동)
 
-### 5-2. 프로필 시스템
-
-#### 프로필 정보
-
-* 소개
-* 포트폴리오
-* 작업 분야
-* 사용 툴
-* 경력
-* 평점
-* 랭크
-
----
-
-### 5-3. 리뷰 시스템
-
-거래 완료 후 상호 평가를 진행합니다.
-
-#### 평가 항목
-
-##### 구인자 평가
-
-* 작업 품질
-* 커뮤니케이션
-* 납기 준수
-
-##### 구직자 평가
-
-> 구직자도 평점을 남길 수 있어야 하나?
-
-* 피드백 명확성
-* 응답 속도
-* 거래 만족도
+</details>
 
 ---
 
-### 5-4. 랭크 시스템
+## 🛠 Tech Stack
 
-> 회의 요망
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript_5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-사용자의 활동 내역과 리뷰를 기반으로 랭크를 부여합니다.
+### Backend
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_4.0.6-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket_STOMP-010101?style=for-the-badge)
 
-#### 예시
+### Database & Storage
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white)
+![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
-* Rookie
-* Bronze
-* Silver
-* Gold
-* Platinum
-* Master
-
-랭크는 단순 리뷰 수가 아닌 활동 내역과 평판을 종합적으로 반영합니다.
-
----
-
-### 5-5. 커뮤니티 기능
-
-구인·구직 외에도 자유로운 소통 공간을 제공합니다.
-
-#### 게시판 종류
-
-* 포트폴리오 공유
-* 단가 토론
-* 편집 팁 공유
-* 장비 추천
-* 질문 게시판
+### Infra & 부가 서비스
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Toss Payments](https://img.shields.io/badge/Toss_Payments-0064FF?style=for-the-badge)
 
 ---
 
-### 5-6. 실시간 채팅
+## 📁 프로젝트 구조
 
-사용자 간 1:1 채팅 기능을 제공합니다.
-
-#### 특징
-
-* 게시글과 무관하게 직접 연락 가능
-* 파일 전송 가능
-* 이미지 전송 가능
-* 견적 협의 가능
+```
+├── frontend/                          # Next.js 14 (App Router)
+│   ├── app/
+│   │   ├── (main)/                    # 인증 필요 페이지 그룹
+│   │   │   ├── admin/                 # 관리자 대시보드
+│   │   │   ├── chat/                  # 채팅방 목록 / 상세
+│   │   │   ├── community/             # 커뮤니티 게시판
+│   │   │   ├── jobs/                  # 구인구직 게시판
+│   │   │   ├── matching/              # 맞춤 매칭 (블라인드 프로필)
+│   │   │   ├── mypage/                # 마이페이지 (포인트, 프로젝트, 포트폴리오)
+│   │   │   ├── profile/               # 공개 프로필
+│   │   │   └── settings/              # 계정 설정
+│   │   ├── (public)/                  # 비인증 페이지 그룹
+│   │   │   ├── login/                 # 로그인 (소셜 + 로컬)
+│   │   │   ├── signup/                # 회원가입
+│   │   │   ├── onboarding/            # 역할 선택 / 프로필 설정
+│   │   │   └── forgot-password/       # 비밀번호 찾기
+│   │   └── api/                       # Next.js Route Handler
+│   │       ├── ai-draft/              # AI 글쓰기 초안 (Gemini)
+│   │       └── og/                    # OG 이미지 생성
+│   ├── components/
+│   │   ├── admin/                     # 관리자 패널
+│   │   ├── auth/                      # 인증 관련 컴포넌트
+│   │   ├── chat/                      # 채팅 UI, 프로젝트 패널
+│   │   ├── common/                    # 공통 컴포넌트 (NavBar, FAB, 알림 등)
+│   │   ├── dispute/                   # AI 분쟁 조정 모달
+│   │   ├── editor/                    # 리치 텍스트 에디터 (Tiptap)
+│   │   ├── matching/                  # 맞춤매칭 카드
+│   │   ├── post/                      # 게시글 카드 / 작성 모달
+│   │   └── profile/                   # 프로필 컴포넌트
+│   ├── hooks/                         # useAuth, useChatSocket 등
+│   ├── lib/                           # API 클라이언트, 유틸
+│   ├── store/                         # React Context (전역 상태)
+│   └── types/                         # TypeScript 타입 정의
+│
+└── backend/                           # Spring Boot 4.0.6
+    └── src/main/java/com/backend/
+        ├── domain/
+        │   ├── admin/                 # 회원/게시글 관리
+        │   ├── auth/                  # 인증 (JWT, OAuth2, 이메일 인증)
+        │   ├── chat/                  # 채팅방, 메시지, WebSocket
+        │   ├── dispute/               # AI 분쟁 조정
+        │   ├── matching/              # 맞춤 매칭
+        │   ├── notification/          # 실시간 알림
+        │   ├── point/                 # 포인트 / 안전결제 / Toss
+        │   ├── post/                  # 구인구직 / 커뮤니티 게시글
+        │   ├── profile/               # 공개 프로필, 포트폴리오, 리뷰
+        │   ├── project/               # 프로젝트 (계약, 완료, 취소)
+        │   └── user/                  # 유저 엔티티
+        └── global/
+            ├── ai/                    # Gemini API 클라이언트
+            ├── config/                # Security, WebSocket, CORS 등
+            ├── exception/             # 전역 예외 처리
+            └── rsdata/                # 공통 응답 포맷
+```
 
 ---
 
-## 6. 회의 결과 및 추가 기능 제안
+## 🚀 실행 방법
 
-### 온도 시스템 개선
+```bash
+# 로컬 DB 실행 (Docker)
+cd backend
+docker-compose up -d
 
-* 리뷰 수와 평점을 동시에 반영
-* 리뷰 수가 적은 고평점 계정의 신뢰도 왜곡 방지
+# 백엔드
+./gradlew bootRun
 
-### 단가 필터 개선
+# 프론트엔드
+cd frontend
+npm install
+npm run dev
+```
 
-기존 드롭다운 방식 대신 범위 지정 방식 제공
+<details>
+<summary><b>⚙️ 환경변수 설정 (backend)</b></summary>
+<br/>
 
-#### 예시
+```env
+DB_URL=
+DB_USER=
+DB_PASSWORD=
+JWT_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+KAKAO_CLIENT_ID=
+KAKAO_CLIENT_SECRET=
+R2_ACCESS_KEY=
+R2_SECRET_KEY=
+TOSS_SECRET_KEY=
+BREVO_API_KEY=
+GEMINI_API_KEY=
+```
+</details>
 
-* 최소 단가
-* 최대 단가
+<details>
+<summary><b>⚙️ 환경변수 설정 (frontend)</b></summary>
+<br/>
 
-직관적인 검색 경험 제공
-
-### 구인글 작성 폼 개선
-
-썸네일 제작 여부 선택 옵션 제공
-
-#### 예시
-
-* 편집만 필요
-* 썸네일 포함
-* 별도 디자이너 필요
+```env
+NEXT_PUBLIC_API_URL=
+NEXT_PUBLIC_TOSS_CLIENT_KEY=
+```
+</details>
 
 ---
 
-## 7. 기대 효과
+## 🗄 ERD
 
-* 유튜버와 프리랜서 간의 정보 비대칭 해소
-* 실거래 데이터를 활용한 시장 단가 표준화
-* 검증된 전문가 매칭
-* 안정적인 구인·구직 환경 조성
-* 유튜브 전문 인력 시장의 신뢰도 향상
+<p align="center">
+  <img width="3125" height="3039" alt="Image" src="https://github.com/user-attachments/assets/ae1f2a3e-d06a-41b8-9891-50f28f00a2ce" />
+</p>
+
+---
+
+
+
+<!-- 팀원 정보 -->
+<table>
+  <tr>
+    <td align="center">
+      <b>0-0v</b><br/>
+      <a href="https://github.com/0-0v">@0-0v</a>
+    </td>
+    <td align="center">
+      <b>HeungJunBag</b><br/>
+      <a href="https://github.com/HeungJunBag">@HeungJunBag</a>
+    </td>
+    <td align="center">
+      <b>JuyoungKim1024</b><br/>
+      <a href="https://github.com/JuyoungKim1024">@JuyoungKim1024</a>
+    </td>
+    <td align="center">
+      <b>tke0329</b><br/>
+      <a href="https://github.com/tke0329">@tke0329</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🎯 기대 효과
+
+- 유튜버·프리랜서 간 정보 비대칭 해소
+- 실거래 데이터 기반 시장 단가 표준화
+- 검증된 전문가 매칭
+- 안정적인 구인·구직 환경 조성
+- 유튜브 전문 인력 시장 신뢰도 향상
+
+---
+
+<!-- FOOTER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,00b4d8,60,0a2540,100,0d1117&height=150&section=footer" />
