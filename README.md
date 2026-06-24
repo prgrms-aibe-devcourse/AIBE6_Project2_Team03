@@ -277,66 +277,7 @@ NEXT_PUBLIC_TOSS_CLIENT_KEY=
 
 ## 🏗 시스템 아키텍처
 
-```mermaid
-graph TB
-  subgraph Client["🖥️  Client"]
-    Browser["브라우저"]
-  end
-
-  subgraph Vercel["☁️  Vercel"]
-    FE["Next.js 14\nApp Router / React 19"]
-  end
-
-  subgraph Railway["🚂 Railway"]
-    direction TB
-    SB["Spring Boot 4.0\n(Railpack / gradlew bootJar)"]
-    JWTFilter["JWT Filter"]
-    REST["REST API  /api/**"]
-    WS["WebSocket STOMP /ws\n(인메모리 브로커)"]
-    Flyway["Flyway 마이그레이션"]
-    MySQL["MySQL 8.4"]
-
-    SB --> JWTFilter
-    JWTFilter --> REST
-    SB --> WS
-    SB --> Flyway
-    REST --> MySQL
-    WS --> MySQL
-    Flyway --> MySQL
-  end
-
-  subgraph Storage["📦 Cloudflare R2"]
-    R2["포트폴리오 이미지 / 영상\n채팅 첨부파일"]
-  end
-
-  subgraph OAuth["🔐 OAuth 2.0"]
-    Kakao["Kakao"]
-    Google["Google"]
-  end
-
-  subgraph ExtServices["🔌 External Services"]
-    Toss["Toss Payments\n포인트 충전"]
-    Gemini["Google Gemini AI\n분쟁 자동 판정"]
-    Brevo["Brevo\n이메일 인증"]
-  end
-
-  Browser -- HTTPS --> FE
-  Browser -- "HTTPS / WSS" --> SB
-
-  FE -- "REST API" --> REST
-  FE -- "WebSocket STOMP" --> WS
-
-  REST -- "파일 업로드" --> R2
-  R2 -- "Public URL 직접 서빙" --> Browser
-
-  REST --> Kakao
-  REST --> Google
-  REST --> Toss
-  REST --> Gemini
-  REST --> Brevo
-```
-
----
+<img width="900" alt="Image" src="https://github.com/user-attachments/assets/a40190b0-2568-4959-8705-7ddf5ac864fe" />
 
 ## 🗄 ERD
 
